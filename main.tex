@@ -1,0 +1,236 @@
+\documentclass[letterpaper,10pt]{article}
+% Adjust margins
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+% \usepackage{xcolor}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{scalerel}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{times}
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.63in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1.27in}
+\addtolength{\topmargin}{-0.63in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Ensure that the generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-2.3pt}}
+  }
+}
+
+\newcommand{\resumeSubheadingTwo}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      {#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-11pt}
+}
+
+\newcommand{\resumeSubheadingOne}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      {#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-11pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      {#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% \newcommand{\resumeSubSubheading}[2]{
+%     \item
+%     \begin{tabular*}{1\textwidth}{l@{\extracolsep{\fill}}r}
+%       \textit{\small#1} & \textit{\small #2} \\
+%     \end{tabular*}\vspace{100pt}
+% }
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\footskip}{3.60004pt}
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Arnav Khurma} \\ \vspace{3.5pt}
+    \href{tel:5408249505}{\scalerel*{\includegraphics{phone.png}}{B} {+1 540-824-9505}} $|$ \href{mailto:arnavkhurma@vt.edu}{\scalerel*{\includegraphics{email.png}}{B} {arnavkhurma@vt.edu}} $|$ \href{https://www.linkedin.com/in/arnav-khurma/}{\scalerel*{\includegraphics{linkedin.png}}{B} {LinkedIn}} $|$
+    \href{https://github.com/arnavkhurma}{\scalerel*{\includegraphics{github}}{B} {GitHub}}
+\end{center}
+
+% \section{Interests}
+%  \begin{itemize}[leftmargin=0in, label={}]
+%     \item{
+%      {Software Engineering, Quantitative Research, Sales and Trading, FX/Rates/Commodities in Fixed Income.} \\
+%     }
+%  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{\bf EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheadingOne
+      {\textbf{Virginia Tech, Blacksburg} \textit{-- Bachelor of Science in Computer Science, Minor in Mathematics}}{\textbf{May 2026}}
+      {}{}
+      \textit{Coursework:} Applied Economic Forecasting, Price \& Market Analysis, Probability and Statistics, Linear Algebra, Multivariate Calculus, Applied Combinatorics and Graph Theory, Discrete Mathematics, Machine Learning, Data Structures and Algorithms (DSA), Software Design, Object-Oriented Programming, Computer Architecture.
+     % \textbf{Extremely interested in Systems Programming (Linux, Embedded Systems)} \\
+     \resumeSubheadingTwo
+      {\textbf{International Baccalaureate Diploma Programme}}{\textbf{May 2022}}
+      {}{}
+      1450 SAT, \textit{Higher Level:} Mathematics Analysis \& Approaches, Physics, Chemistry; \textit{Standard Level:} Economics, French, English.\\
+  \resumeSubHeadingListEnd
+
+%
+%-----------CERTIFICATIONS-----------
+\section[Certifications]{\bf AWARDS \& CERTIFICATIONS \hfill {\small\textit{(hyperlinked)}}}
+\href{https://devpost.com/software/flink-la94iy}{\textit{Captain, Finalist, Winner}: HackViolet February 2024} $|$ Dean's List with Honors Distinction (Fall 2022, Fall 2023) $|$ \href{https://akunacapital.teachable.com/}{Akuna Capital's Options 101} $|$ \href{https://www.bloomberg.com/professional/product/certificate-courses/}{Bloomberg Market Concepts} $|$ \href{https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/bWqaecPDbYAwSDqJy_JPMorgan%20Chase%20&%20Co._yiENqwmegcvLLrcof_1696617313941_completion_certificate.pdf}{JPMorgan Chase \& Co's Quantitative Research Virtual Experience} $|$ \href{https://www.linkedin.com/learning/certificates/6b32064a65c28b6a5719cc6ee4f55cd4315226c11fb25f73d3922fac0ffb84ce}{Algorithmic Trading and Financial Modeling in Python and R} $|$ \href{https://courses.edx.org/certificates/b35551102c414aceba8f412c511ab4cb}{CS50x: Computer Science, by Harvard University}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section[Technical Skills]{\bf TECHNICAL SKILLS}
+ \textbf{Languages:} Java, Python, Flask, R, C/C++, HTML/CSS, JavaScript/TypeScript, x86/RISC-V Assembly, SQL, \LaTeX. \\
+ \textbf{Frameworks \& Tools:} MATLAB, Solidworks, Java Unit Testing, Docker, Git, (Unix) Bash, React.js, Microsoft Suite, Bloomberg Terminal.
+ \textbf{Special Interests:}
+ % Enter Keywords Here
+Sales \& Trading, Quantitative Finance, Research, and Trading. 
+ % Till Here
+ \\
+
+%-----------EXPERIENCE-----------
+\section{\bf EXPERIENCE}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{\href{https://www.coins.aaec.vt.edu/}{Junior Analyst (Quantitative Research)}}}{\textbf{September 2023 -- Present}}
+      {\textit{Commodity Investing by Students (COINS)}}{Blacksburg, VA}     \resumeItemListStart[leftmargin=0.2in]
+        \resumeItem{Collaborate in investing up to \textit{\$1M} on behalf of the \textit{Virginia Tech Foundation} for the nation's only student-run commodity trading group diversified in futures-based \textit{Exchange-Traded Funds}.} \\
+        \resumeItem{Continually developing the \href{https://hokieterminal.com/}{HokieTerminal}; a cutting-edge trading platform that combines charting, quantitative strategies, quantitative tools (options pricing, statistical analysis, ML forecasting models), technical signals, and live market news.}
+        \resumeItem{Formulate trade recommendations based on comprehensive technical and fundamental analysis, employing sharp analytical insight and strategic problem-solving capabilities refined through targeted training and real-world trading experience.}
+        \resumeItem{Mentored by \textit{Armine Poghosyan} from the \textit{Department of Agricultural \& Applied Economics} at Virginia Tech.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {\textbf{\href{https://studentsuccess.vt.edu/}{Undergraduate Computer Science/Mathematics Tutor}}}{\textbf{August 2023 -- Present}}
+      {\textit{Virginia Tech Student Success Center}}{Blacksburg, VA}
+      \resumeItemListStart[leftmargin=0.2in]
+        \resumeItem{Provide instructional assistance and guidance to students in \textit{Data Structures, Computer Architecture, and Linear Algebra}.} \\
+        \resumeItem{Lead weekly debugging and drop-in sessions to reinforce foundational concepts and enhance debugging skills.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section[Projects]{\bf PROJECTS \hfill {\small\textit{(hyperlinked)}}}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\textbf{Quantitative Finance} $|$ \textit{LSTM, Multi-regression analysis, Volatility Adjusted Limit Calculations}}{\textbf{Present}}
+          \resumeItemListStart[leftmargin=0.2in]
+            \resumeItem{Devised LSTM model to forecast prices, involving live data integration, in-depth feature analysis and engineering.} \\
+            \resumeItem{Leveraged R to create ARIMA, WN, and RW models to fit financial data sets for time series analysis and forecasting.} \\
+            \resumeItem{Designed variable time frame price return indicators to identify commodities with high-quality momentum in U.S. Markets.} \\
+            \resumeItem{Monitored model performance by tracking and assessing Mean Absolute Error, Collinearity, RMSE and R-squared.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+      {\href{https://github.com/arnavkhurma/SentiVision}{\textbf{Sentivision} $|$ \textit{Verbal Sincerity Estimation With Computer Vision \& Natural Language Processing}}}{\textbf{May 2023}}
+          \resumeItemListStart[leftmargin=0.2in]
+          \resumeItem{Developed web application to assist law-enforcement agencies in conducting effective and accurate criminal investigations.} \\
+            \resumeItem{Spearheaded pipeline development leveraging React.js, Flask, OpenCV, DeepFace API, and NLTK technologies.} \\
+            \resumeItem{Delivered a remarkable 97.3\% accuracy in analyzing emotions and verbal genuineness from user audio and video inputs.} \\
+            \resumeItem{Enhanced user experience by 60\% through generating accurate transcriptions for audio-video inputs at each timestamp.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{PolyGlot.AI} $|$ \textit{Personal Chat-based Language Learning Assistant}}{\textbf{February 2023}}
+          \resumeItemListStart[leftmargin=0.2in]
+            \resumeItem{Implemented an AI-driven chat interface using React.js, Firebase, and GPT-3.* aimed at revolutionizing language learning.} \\
+            \resumeItem{Engineered OpenAI's API to provide contextually relevant and accurate content with pronunciations and transcriptions.} \\
+            \resumeItem{Devised a creative approach to recall previous interactions, reducing user effort and enhancing overall usability by 60\%.}
+          \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\href{https://github.com/arnavkhurma/Virya}{\textbf{Virya: NLP-Enabled Carbon Emissions Chatbot} $|$ \emph{November 2022}}}{}
+      %     \resumeItemListStart[leftmargin=0.3in]
+      %       \resumeItem{Utilized React.js, Python (Flask), and Firebase to create a custom chat-based application} \\
+      %       \resumeItem{Implemented a fine-tuned Hugging Face BERT-based model, achieving 95\% accuracy in classifying user text inputs on carbon emissions}
+      %     \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\end{document}
